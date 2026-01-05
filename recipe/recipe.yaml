@@ -1,6 +1,6 @@
 context:
   name: essspectroscopy
-  version: "25.12.0"
+  version: "26.1.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/essspectroscopy-${{ version }}.tar.gz
-  sha256: 9cfd99a94e9aa924e7b521ecadf442824a504fef5a3a005eb2c7365a21e7cd9c
+  sha256: f62ea8176b7d109191f63030c6888cbad22f3ec9586b2a826fe0e5da15801f5d
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - essreduce >=25.11.0
+    - essreduce >=25.11.3
     - python-graphviz >=0.20
     - pandas >=2.1.2
     - sciline >=25.4.1
