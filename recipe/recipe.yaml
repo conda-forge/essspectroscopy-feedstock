@@ -1,6 +1,6 @@
 context:
   name: essspectroscopy
-  version: "26.3.0"
+  version: "26.6.0"
   python_min: "3.11"
 
 package:
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/essspectroscopy-${{ version }}.tar.gz
-  sha256: 58d4716bc5373fbf4078c4a5a628729190c08a8b80cf1c2996cc9e599df776ca
+  sha256: aa150e7fefb8e880419881d2d12b8e779be738317db1c47afcaceb3c39dc4bd2
 
 build:
   number: 0
