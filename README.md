@@ -3,13 +3,13 @@ About essspectroscopy-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/essspectroscopy-feedstock/blob/main/LICENSE.txt)
 
-Home: https://scipp.github.io/essspectroscopy/
+Home: https://scipp.github.io/ess/spectroscopy/
 
 Package license: BSD-3-Clause
 
 Summary: Spectroscopy data reduction for the European Spallation Source
 
-Development: https://github.com/scipp/essspectroscopy
+Development: https://github.com/scipp/ess/tree/main/packages/essspectroscopy
 
 Current build status
 ====================
