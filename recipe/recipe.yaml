@@ -1,7 +1,7 @@
 context:
   name: essspectroscopy
   version: "26.9.0"
-  python_min: "3.11"
+  python_min: "3.12"
 
 package:
   name: ${{ name|lower }}
@@ -24,7 +24,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }}
-    - essreduce >=26.6.0
+    - essreduce >=26.8.0
     - python-graphviz >=0.20
     - pandas >=2.1.2
     - sciline >=25.4.1
